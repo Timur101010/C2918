@@ -144,7 +144,7 @@ class Auto:
     def __init__(self, rav4=None):
         model = rav4
 
-    def __init__(self, toyota=None):
+    def toyota(self, toyota=None):
         brand = toyota
 
 
