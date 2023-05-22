@@ -30,3 +30,4 @@ class SmartPhone (Display, Computer):
 iphone = SmartPhone()
 iphone.print_info()
 
+# нужно расширить программу до нескольких классов как на уроке
