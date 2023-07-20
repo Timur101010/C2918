@@ -9,16 +9,17 @@ res_dict = res.json()
 repos = res_dict ["items"]
 len(repos)
 
-import requests import pandas as pd
+import requests 
+import pandas as pd
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars&order=desc'
 res = requests.get (url)
-res dict = res. json ( )
-repos = res_dict[ 'items')
+res_dict = res. json ( )
+repos = res_dict[ 'items']
 len (repos)
 30
 
-del res_dict[ 'items')
-res dict
+del res_dict['items']
+res_dict
 {'incomplete_results': True,'total count': 8046758}
 
 repo_df = pd.DataFrame(repos)
